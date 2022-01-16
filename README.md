@@ -1,2 +1,2 @@
-# Electricity-Bill-Management
+# Electricity-Bill-Management-System
 DBMS Project
