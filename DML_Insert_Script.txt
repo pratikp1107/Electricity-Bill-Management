@@ -1,0 +1,180 @@
+
+
+
+
+
+
+
+---Insert Queries - customer Table:
+
+insert into customer values(101,'Abdul Parmar','782/2,Jaypopat Apartments','Andheri','Mumbai','Maharashtra',400047)
+insert into customer values(102,'Shreyas Patel','21, Gangutai Apartments','Bandra','Mumbai','Maharashtra',400050)
+insert into customer values(103,'Ashok Dinda','12, Suryabhai Bungalows','Borivali','Mumbai','Maharashtra',400091)
+insert into customer values(104,'Justin Christian','20, christio flats','Dahisar','Mumbai','Maharashtra',400068)
+insert into customer values(105,'Kailash Mehta','10, Suryabhai Bungalows','Borivali','Mumbai','Maharashtra',400091)
+insert into customer values(106,'Jessica Jones','768,Jaypopat Apartments','Andheri','Mumbai','Maharashtra',400047)
+insert into customer values(107,'Luke Cage','24, christio flats','Dahisar','Mumbai','Maharastra',400068)
+insert into customer values(108,'Harisingh Mehta','34,Lalubhai Society','Andheri','Mumbai','Maharashtra',400047)
+insert into customer values(109,'Paul Matthew','12, Gokuldam society','Dahisar','Mumbai','Maharashtra',400068)
+insert into customer values(110,'Azzarhudin Gariwala','2, madhuram flats','Borivali','Mumbai','Maharashtra',400091)
+insert into customer values(111,'Avneet Singh','12, Gangutai Apartments','Bandra','Mumbai','Maharashtra',400050)
+insert into customer values(112,'Shivani Rathi','12, madhuram flats','Borivali','Mumbai','Maharashtra',400091)
+insert into customer values(113,'Bhavya Chandrasala','9, Gokuldam society','Dahisar','Mumbai','Maharashtra',400068)
+insert into customer values(114,'Pratik Patil','17, Lalubhai society','Andheri','Mumbai','Maharashtra',400048)
+insert into customer values(115,'Tanya Jagyasi','9, Gangutai Apartment','Bandra','Mumbai','Maharashtra',400057)
+
+
+
+---Insert Queries - phone_no Table:
+
+insert into phone_no values(101,9584548115)
+insert into phone_no values(106,8468514124)
+insert into phone_no values(108,8353281323)
+insert into phone_no values(101,9745864648)
+insert into phone_no values(114,9432134521)
+insert into phone_no values(107,9213542121)
+insert into phone_no values(107,9998654656)
+insert into phone_no values(120,9732135435)
+insert into phone_no values(102,9845121542)
+insert into phone_no values(111,9755823543)
+insert into phone_no values(112,9321321254)
+insert into phone_no values(119,9743132154)
+insert into phone_no values(104,9154134212)
+insert into phone_no values(112,8786546854)
+insert into phone_no values(113,9731834515)
+
+
+
+---Insert Queries - electricity_board Table:
+
+insert into electricity_board values(101010,'MSEB','active','Maharashtra State Electricity Board.    Headquarters: Mumbai, Maharashtra, India.    Owner: Government of Maharashtra Organization.    Type: State-owned enterprise Area.    Purpose: Power distribution.')
+
+
+
+---Insert Queries - tariff Table:
+
+insert into tariff values(111111,101010,'Residential','Units(0-100): ₹3.30, Units(101-300): ₹7.30, Units(301-500): ₹9.90, Units(>500): ₹11.50')
+
+
+
+---Insert Queries - account Table:
+
+insert into account values(200001,231485762,101,101010,30000782,'abdulparmar@gmail.com','Lala@4527')
+insert into account values(200002,231485763,102,101010,30000784,'shreyaspatel@gmail.com','janeman$127')
+insert into account values(200003,231485764,103,101010,30000786,'ashokdinda@gmail.com','Mahism*739')
+insert into account values(200004,231485765,104,101010,30000788,'justinchrist@yahoo.com','Ranu@dola12')
+insert into account values(200005,231485766,105,101010,30000790,'kailashmehta@gmail.com','MrMehta*49')
+insert into account values(200006,231485767,106,101010,30000792,'jessjones@gmail.com','Jessica@137')
+insert into account values(200007,231485768,107,101010,30000794,'lukibaba@gmail.com','BabaLuke@21')
+insert into account values(200008,231485769,108,101010,30000796,'harisingh.mehta@yahoo.com','Gujujay*134')
+insert into account values(200009,231485770,109,101010,30000798,'paulmatthews@yahoo.com','Paul3719')
+insert into account values(200010,231485771,110,101010,30000800,'azzarbhai@gmail.com','Cricket1392')
+insert into account values(200011,231485772,111,101010,30000802,'avneetsingh@yahoo.com','lassi193')
+insert into account values(200012,231485773,112,101010,30000804,'rathishivani@gmail.com','rathi1421')
+insert into account values(200013,231485774,113,101010,30000806,'bhavyachand@yahoo.com','Mumbaiaaya131')
+insert into account values(200014,231485775,114,101010,30000808,'pratikpatil@gmail.com','nashikjan7492')
+insert into account values(200015,231485776,115,101010,30000810,'tanyajagyasi@yahoo.com','Samosa#143')
+
+
+
+---Insert Queries - department Table:
+
+insert into department values(1,101010,'Administration')
+insert into department values(2,101010,'Technical')
+
+
+
+---Insert Queries - employee Table:
+
+insert into employee values(390001,101010,1,'Tipendar Gada','Station Operator')
+insert into employee values(390002,101010,2,'Sundar Lal','Engineer')
+insert into employee values(390003,101010,2,'Jethalal Gada','Engineer')
+insert into employee values(390004,101010,2,'Hansraj Baldevraj','Wireman')
+insert into employee values(390005,101010,2,'Popatlal Bhatia','Wireman')
+insert into employee values(390006,101010,2,'Ramubhai Patel','Wireman')
+insert into employee values(390007,101010,2,'Champaklal Gada','Wireman')
+insert into employee values(390008,101010,1,'Roshan Singh','Meter Reader')
+insert into employee values(390009,101010,1,'Bagheshwar Undhaiwala','Meter Reader')
+insert into employee values(390010,101010,1,'Tarak Mehta','Meter Reader')
+insert into employee values(390011,101010,1,'Aatmaram Bhide','Meter Reader')
+
+
+
+---Insert Queries - invoice Table:
+
+insert into invoice values(6001,390008,200001,'01-07-2021',13254,13594,340.00,'15-07-2021',0,150,2465,119,0,2734)
+insert into invoice values(7001,390008,200001,'01-09-2021',13594,13894,300.00,'15-09-2021',0,150,2175,105,0,2430)
+insert into invoice values(8001,390008,200001,'01-11-2021',13894,14010,116,'15-11-2021',0,150,841,40.6,0,1031.6)
+insert into invoice values(6002,390009,200002,'01-07-2021',12514,12754,240.00,'15-07-2021',17.4,150,1740,84,0,1991.4)
+insert into invoice values(7002,390009,200002,'01-09-2021',12754,12980,226.00,'15-09-2021',0,150,1638.5,79.1,0,1867.6)
+insert into invoice values(8002,390009,200002,'01-11-2021',12980,13240,260,'15-11-2021',0,150,1885,91,0,2126)
+insert into invoice values(6003,390010,200003,'01-07-2021',13004,13248,244.00,'15-07-2021',0,150,1769,97.6,0,2016.6)
+insert into invoice values(7003,390010,200003,'01-09-2021',13248,13584,336,'15-09-2021',0,150,2436,134.4,0,2720.4)
+insert into invoice values(8003,390010,200003,'01-11-2021',13584,13798,214,'15-11-2021',0,150,1551.5,85.6,0,1787.1)
+insert into invoice values(6004,390011,200004,'05-07-2021',17815,18009,194,'20-07-2021',0,150,1406.5,77.6,0,1634.1)
+insert into invoice values(7004,390011,200004,'05-09-2021',18009,18354,345,'20-09-2021',0,150,2501.25,138,0,2789.25)
+insert into invoice values(8004,390011,200004,'05-11-2021',18354,18831,477,'20-11-2021',0,150,3458.25,190.8,0,3799.05)
+insert into invoice values(6005,390010,200005,'03-07-2021',14945,15110,165,'18-07-2021',0,150,1196.25,66,0,1412.25)
+insert into invoice values(7005,390010,200005,'03-09-2021',15110,15348,238,'18-09-2021',0,150,1725.5,95.2,0,1970.7)
+insert into invoice values(8005,390010,200005,'03-11-2021',15348,15584,236,'18-11-2021',0,150,1711,94.4,0,1955.4)
+
+
+
+---Insert Queries - payment Table:
+
+
+Insert into payment values(6969121,6001,200001,'online','02-07-2021','11:45',2734,2734,0,'paid');
+Insert into payment values(6969122,7001,200001,'','',,2430,0,'unpaid');
+Insert into payment values(6969101,8001,200001,'','',,1032,0,'unpaid');
+Insert into payment values(6969123,6002,200002,'online','18-07-2021','16:35',1991,1991,0,'paid');
+Insert into payment values(6969124,7002,200002,'online','05-09-2021','08:05',1868,1868,0,'paid');
+Insert into payment values(6969102,8002,200002,'','',,2126,0,'unpaid');
+Insert into payment values(6969125,6003,200003,'online','12-07-2021','09:54',2017,2017,0,'paid');
+Insert into payment values(6969126,7003,200003,'','',,2720,0,'unpaid');
+Insert into payment values(6969103,8003,200003,'online','07-11-2021','15:57',1787,1800,13,'paid');
+Insert into payment values(6969127,6004,200004,'online','09-07-2021','09:24',1634,1634,0,'paid');
+Insert into payment values(6969128,7004,200004,'cash/cheque','07-09-2021','22:54',2789,2789,0,'paid');
+Insert into payment values(6969104,8004,200004,'','',,3799,0,'unpaid');
+Insert into payment values(6969129,6005,200005,'online','15-07-2021','20:54',1412,1412,0,'paid');
+Insert into payment values(6969130,7005,200005,'cash/cheque','15-09-2021','18:24',1971,1971,0,'paid');
+Insert into payment values(6969105,8005,200005,'','',,1955,0,'unpaid');
+
+
+
+---Insert Queries - feedback Table:
+
+insert into feedback values(2021101,'03-11-2021',200001,'Good service','Excellent')
+insert into feedback values(2021102,'02-07-2021',200001,'Not satisfied','Poor')
+insert into feedback values(2021103,'09-09-2021',200001,'Good service','Excellent')
+insert into feedback values(2021104,'18-07-2021',200002,'','Good')
+insert into feedback values(2021105,'05-09-2021',200002,'Good service','Excellent')
+insert into feedback values(2021106,'04-11-2021',200002,'','Good')
+insert into feedback values(2021107,'05-11-2021',200003,'','Good')
+insert into feedback values(2021108,'09-07-2021',200004,'','Excellent')
+insert into feedback values(2021109,'02-09-2021',200004,'','Excellent')
+insert into feedback values(2021110,'15-07-2021',200005,'Not Satisfied','Poor')
+insert into feedback values(2021111,'24-11-2021',200006,'','Good')
+insert into feedback values(2021112,'05-09-2021',200007,'','Excellent')
+insert into feedback values(2021113,'24-11-2021',200007,'Good service','Excellent')
+insert into feedback values(2021114,'08-07-2021',200007,'','Excellent')
+insert into feedback values(2021115,'05-07-2021',200008,'','Good')
+
+
+
+---Insert Queries - maintenance Table:
+
+insert into maintenance values(9601,390004,200001,'12-07-2021','20-07-2021','completed')
+insert into maintenance values(9621,390004,200001,'12-10-2021','20-10-2021','completed')
+insert into maintenance values(9602,390005,200002,'12-07-2021','20-07-2021','completed')
+insert into maintenance values(9622,390005,200002,'12-10-2021','20-10-2021','completed')
+insert into maintenance values(9603,390006,200003,'18-07-2021','30-07-2021','completed')
+insert into maintenance values(9623,390006,200003,'18-10-2021','','pending');
+insert into maintenance values(9604,390007,200004,'18-07-2021','30-07-2021','completed');
+insert into maintenance values(9624,390007,200004,'18-10-2021','','pending');
+insert into maintenance values(9605,390006,200005,'18-07-2021','30-07-2021','completed');
+insert into maintenance values(9625,390006,200005,'18-10-2021','','pending');
+insert into maintenance values(9606,390004,200006,'12-07-2021','20-07-2021','completed');
+insert into maintenance values(9626,390004,200006,'12-10-2021','','pending');
+insert into maintenance values(9607,390007,200007,'18-07-2021','02-08-2021','completed');
+insert into maintenance values(9627,390007,200007,'18-10-2021','30-10-2021','completed');
+insert into maintenance values(9608,390004,200008,'12-07-2021','22-07-2021','completed');

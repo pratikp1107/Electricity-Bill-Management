@@ -1,0 +1,93 @@
+create schema Bill_Management;
+set search_path to Bill_Management;
+
+create table customer(cust_id int PRIMARY KEY,
+cust_name varchar(20) NOT NULL,
+address_line_1 varchar(30) NOT NULL,
+area varchar(10) NOT NULL,
+city varchar(10) NOT NULL,
+state varchar(20) NOT NULL,
+pin_code int) NOT NULL;
+
+create table phone_no(cust_id int NOT NULL,
+phone_no bigint NOT NULL,
+FOREIGN KEY (cust_id) REFERENCES customer(cust_id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+create table electricity_board(eb_id int PRIMARY KEY,
+eb_name varchar(20) NOT NULL,
+status varchar(10) NOT NULL,
+note varchar(500));
+
+create table tariff(tarrif_id int PRIMARY KEY,
+eb_id int NOT NULL,
+tariff_type varchar(20) NOT NULL,
+tariff_description varchar(500) NOT NULL,
+FOREIGN KEY (eb_id) REFERENCES electricity_board(eb_id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+create table account(account_id int PRIMARY KEY,
+acc_no bigint Unique NOT NULL,
+cust_id int NOT NULL,
+eb_id int NOT NULL,
+rr_number varchar(10) NOT NULL,
+email_id varchar(30),
+password varchar(20) NOT NULL,
+FOREIGN KEY (cust_id) REFERENCES customer(cust_id) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (eb_id) REFERENCES electricity_board(eb_id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+create table department(dept_no int PRIMARY KEY,
+eb_id int NOT NULL,
+dept_name varchar(20) NOT NULL);
+
+create table employee(emp_id Int PRIMARY KEY,
+eb_id int NOT NULL,
+dept_no int NOT NULL,
+emp_name varchar(50) NOT NULL,
+emp_post varchar(20) NOT NULL,
+FOREIGN KEY (eb_id) REFERENCES electricity_board(eb_id) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (dept_no) REFERENCES department(dept_no) ON DELETE CASCADE ON UPDATE CASCADE);
+
+create table invoice(invoice_id int PRIMARY KEY,
+emp_id int NOT NULL,
+account_id int NOT NULL,
+reading_date date NOT NULL,
+previous_reading decimal(8,2) NOT NULL,
+present_reading decimal(8,2) NOT NULL,
+consumption_unit decimal(5,2) NOT NULL,
+due_date date NOT NULL,
+due_charges decimal(5,2),
+fixed_charge decimal(5,2),
+energy_charge decimal(8,2) NOT NULL,
+tax decimal(8,2) NOT NULL,
+previous_balance decimal(5,2) NOT NULL,
+bill_amount decimal(8,2) NOT NULL,
+FOREIGN KEY (emp_id) REFERENCES employee(emp_id) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (account_id) REFERENCES account(account_id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+create table payment(trans_id int PRIMARY KEY,
+invoice_id int NOT NULL,
+account_id int NOT NULL,
+payment_mode varchar(20) NOT NULL,
+payment_date date NOT NULL,
+payment_time time NOT NULL,
+bill_amount decimal(8,2) NOT NULL,
+paid_amount decimal(8,2) NOT NULL,
+excess_paid decimal(8,2) NOT NULL,
+status varchar(20) NOT NULL,
+FOREIGN KEY (invoice_id) REFERENCES invoice(invoice_id) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (account_id) REFERENCES account(account_id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+create table feedback(feedback_id int PRIMARY KEY,
+feedback_date date NOT NULL,
+account_id int NOT NULL,
+description varchar(50),
+type varchar(20),
+FOREIGN KEY (account_id) REFERENCES account(account_id) ON DELETE CASCADE ON UPDATE CASCADE);
+
+create table maintenance(maintenance_id int PRIMARY KEY,
+emp_id int NOT NULL,
+account_id int NOT NULL,
+m_created_date date NOT NULL,
+m_resolved_date date NOT NULL,
+maintenance_status varchar(20) NOT NULL,
+FOREIGN KEY (emp_id) REFERENCES employee(emp_id) ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (account_id) REFERENCES account(account_id) ON DELETE CASCADE ON UPDATE CASCADE);
