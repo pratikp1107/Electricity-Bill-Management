@@ -1,0 +1,17 @@
+---Insert Queries - Feedback Table
+
+insert into feedback values(2021101,'03-11-2021',200001,'Good service','Excellent')
+insert into feedback values(2021102,'02-07-2021',200001,'Not satisfied','Poor')
+insert into feedback values(2021103,'09-09-2021',200001,'Good service','Excellent')
+insert into feedback values(2021104,'18-07-2021',200002,'','Good')
+insert into feedback values(2021105,'05-09-2021',200002,'Good service','Excellent')
+insert into feedback values(2021106,'04-11-2021',200002,'','Good')
+insert into feedback values(2021107,'05-11-2021',200003,'','Good')
+insert into feedback values(2021108,'09-07-2021',200004,'','Excellent')
+insert into feedback values(2021109,'02-09-2021',200004,'','Excellent')
+insert into feedback values(2021110,'15-07-2021',200005,'Not Satisfied','Poor')
+insert into feedback values(2021111,'24-11-2021',200006,'','Good')
+insert into feedback values(2021112,'05-09-2021',200007,'','Excellent')
+insert into feedback values(2021113,'24-11-2021',200007,'Good service','Excellent')
+insert into feedback values(2021114,'08-07-2021',200007,'','Excellent')
+insert into feedback values(2021115,'05-07-2021',200008,'','Good')

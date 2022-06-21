@@ -1,0 +1,18 @@
+---Insert Queries - Payment Table
+
+
+Insert into payment values(6969121,6001,200001,'online','02-07-2021','11:45',2734,2734,0,'paid');
+Insert into payment values(6969122,7001,200001,'','',,2430,0,'unpaid');
+Insert into payment values(6969101,8001,200001,'','',,1032,0,'unpaid');
+Insert into payment values(6969123,6002,200002,'online','18-07-2021','16:35',1991,1991,0,'paid');
+Insert into payment values(6969124,7002,200002,'online','05-09-2021','08:05',1868,1868,0,'paid');
+Insert into payment values(6969102,8002,200002,'','',,2126,0,'unpaid');
+Insert into payment values(6969125,6003,200003,'online','12-07-2021','09:54',2017,2017,0,'paid');
+Insert into payment values(6969126,7003,200003,'','',,2720,0,'unpaid');
+Insert into payment values(6969103,8003,200003,'online','07-11-2021','15:57',1787,1800,13,'paid');
+Insert into payment values(6969127,6004,200004,'online','09-07-2021','09:24',1634,1634,0,'paid');
+Insert into payment values(6969128,7004,200004,'cash/cheque','07-09-2021','22:54',2789,2789,0,'paid');
+Insert into payment values(6969104,8004,200004,'','',,3799,0,'unpaid');
+Insert into payment values(6969129,6005,200005,'online','15-07-2021','20:54',1412,1412,0,'paid');
+Insert into payment values(6969130,7005,200005,'cash/cheque','15-09-2021','18:24',1971,1971,0,'paid');
+Insert into payment values(6969105,8005,200005,'','',,1955,0,'unpaid');

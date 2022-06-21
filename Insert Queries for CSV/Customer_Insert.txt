@@ -1,0 +1,17 @@
+---Insert Queries - Customer Table
+
+insert into customer values(101,'Abdul Parmar','782/2,Jaypopat Apartments','Andheri','Mumbai','Maharashtra',400047)
+insert into customer values(102,'Shreyas Patel','21, Gangutai Apartments','Bandra','Mumbai','Maharashtra',400050)
+insert into customer values(103,'Ashok Dinda','12, Suryabhai Bungalows','Borivali','Mumbai','Maharashtra',400091)
+insert into customer values(104,'Justin Christian','20, christio flats','Dahisar','Mumbai','Maharashtra',400068)
+insert into customer values(105,'Kailash Mehta','10, Suryabhai Bungalows','Borivali','Mumbai','Maharashtra',400091)
+insert into customer values(106,'Jessica Jones','768,Jaypopat Apartments','Andheri','Mumbai','Maharashtra',400047)
+insert into customer values(107,'Luke Cage','24, christio flats','Dahisar','Mumbai','Maharastra',400068)
+insert into customer values(108,'Harisingh Mehta','34,Lalubhai Society','Andheri','Mumbai','Maharashtra',400047)
+insert into customer values(109,'Paul Matthew','12, Gokuldam society','Dahisar','Mumbai','Maharashtra',400068)
+insert into customer values(110,'Azzarhudin Gariwala','2, madhuram flats','Borivali','Mumbai','Maharashtra',400091)
+insert into customer values(111,'Avneet Singh','12, Gangutai Apartments','Bandra','Mumbai','Maharashtra',400050)
+insert into customer values(112,'Shivani Rathi','12, madhuram flats','Borivali','Mumbai','Maharashtra',400091)
+insert into customer values(113,'Bhavya Chandrasala','9, Gokuldam society','Dahisar','Mumbai','Maharashtra',400068)
+insert into customer values(114,'Pratik Patil','17, Lalubhai society','Andheri','Mumbai','Maharashtra',400048)
+insert into customer values(115,'Tanya Jagyasi','9, Gangutai Apartment','Bandra','Mumbai','Maharashtra',400057)

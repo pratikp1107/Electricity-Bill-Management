@@ -1,0 +1,30 @@
+--- Insert CSV files in PostgreSQL PgAdmin4:
+
+
+COPY filename(attribute1,attribute2,) FROM 'file path' DELIMETER ',' CSV HEADER;
+
+
+
+--- Actual Code:
+
+COPY customer FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\customer_csv.csv' DELIMITER ',' CSV HEADER;
+
+COPY phone_no FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\phone_no_csv.csv' DELIMITER ',' CSV HEADER;
+
+COPY electricity_board FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\electricity_board_csv.csv' DELIMITER ',' CSV HEADER;
+
+COPY tariff FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\tariff_csv.csv' DELIMITER ',' CSV HEADER;
+
+COPY account FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\account_csv.csv' DELIMITER ',' CSV HEADER;
+
+COPY department FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\department_csv.csv' DELIMITER ',' CSV HEADER;
+
+COPY employee FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\employee_csv.csv' DELIMITER ',' CSV HEADER;
+
+COPY invoice FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\invoice_csv.csv' DELIMITER ',' CSV HEADER;
+
+COPY payment FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\payment_csv.csv' DELIMITER ',' CSV HEADER;
+
+COPY feedback FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\feedback_csv.csv' DELIMITER ',' CSV HEADER;
+
+COPY maintenance FROM 'E:\College Education\DA-IICT\Study\Sem 1\Pratik - Projects\DBMS Project\6) Insert Statement & Queries\Excel Files for Tables\CSV Files\maintenance_csv.csv' DELIMITER ',' CSV HEADER;

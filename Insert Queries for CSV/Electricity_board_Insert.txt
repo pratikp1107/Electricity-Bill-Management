@@ -1,0 +1,3 @@
+---Insert Queries - electricity_board Table
+
+insert into electricity_board values(101010,'MSEB','active','Maharashtra State Electricity Board.    Headquarters: Mumbai, Maharashtra, India.    Owner: Government of Maharashtra Organization.    Type: State-owned enterprise Area.    Purpose: Power distribution.')

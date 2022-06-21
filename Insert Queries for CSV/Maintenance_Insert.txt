@@ -1,0 +1,17 @@
+---Insert Queries - Maintenance Table
+
+insert into maintenance values(9601,390004,200001,'12-07-2021','20-07-2021','completed')
+insert into maintenance values(9621,390004,200001,'12-10-2021','20-10-2021','completed')
+insert into maintenance values(9602,390005,200002,'12-07-2021','20-07-2021','completed')
+insert into maintenance values(9622,390005,200002,'12-10-2021','20-10-2021','completed')
+insert into maintenance values(9603,390006,200003,'18-07-2021','30-07-2021','completed')
+insert into maintenance values(9623,390006,200003,'18-10-2021','','pending');
+insert into maintenance values(9604,390007,200004,'18-07-2021','30-07-2021','completed');
+insert into maintenance values(9624,390007,200004,'18-10-2021','','pending');
+insert into maintenance values(9605,390006,200005,'18-07-2021','30-07-2021','completed');
+insert into maintenance values(9625,390006,200005,'18-10-2021','','pending');
+insert into maintenance values(9606,390004,200006,'12-07-2021','20-07-2021','completed');
+insert into maintenance values(9626,390004,200006,'12-10-2021','','pending');
+insert into maintenance values(9607,390007,200007,'18-07-2021','02-08-2021','completed');
+insert into maintenance values(9627,390007,200007,'18-10-2021','30-10-2021','completed');
+insert into maintenance values(9608,390004,200008,'12-07-2021','22-07-2021','completed');

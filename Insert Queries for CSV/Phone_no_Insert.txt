@@ -1,0 +1,17 @@
+---Insert Queries - Phone_no Table
+
+insert into phone_no values(101,9584548115)
+insert into phone_no values(106,8468514124)
+insert into phone_no values(108,8353281323)
+insert into phone_no values(101,9745864648)
+insert into phone_no values(114,9432134521)
+insert into phone_no values(107,9213542121)
+insert into phone_no values(107,9998654656)
+insert into phone_no values(120,9732135435)
+insert into phone_no values(102,9845121542)
+insert into phone_no values(111,9755823543)
+insert into phone_no values(112,9321321254)
+insert into phone_no values(119,9743132154)
+insert into phone_no values(104,9154134212)
+insert into phone_no values(112,8786546854)
+insert into phone_no values(113,9731834515)

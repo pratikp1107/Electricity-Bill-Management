@@ -1,0 +1,17 @@
+---Insert Queries - Account Table
+
+insert into account values(200001,231485762,101,101010,30000782,'abdulparmar@gmail.com','Lala@4527')
+insert into account values(200002,231485763,102,101010,30000784,'shreyaspatel@gmail.com','janeman$127')
+insert into account values(200003,231485764,103,101010,30000786,'ashokdinda@gmail.com','Mahism*739')
+insert into account values(200004,231485765,104,101010,30000788,'justinchrist@yahoo.com','Ranu@dola12')
+insert into account values(200005,231485766,105,101010,30000790,'kailashmehta@gmail.com','MrMehta*49')
+insert into account values(200006,231485767,106,101010,30000792,'jessjones@gmail.com','Jessica@137')
+insert into account values(200007,231485768,107,101010,30000794,'lukibaba@gmail.com','BabaLuke@21')
+insert into account values(200008,231485769,108,101010,30000796,'harisingh.mehta@yahoo.com','Gujujay*134')
+insert into account values(200009,231485770,109,101010,30000798,'paulmatthews@yahoo.com','Paul3719')
+insert into account values(200010,231485771,110,101010,30000800,'azzarbhai@gmail.com','Cricket1392')
+insert into account values(200011,231485772,111,101010,30000802,'avneetsingh@yahoo.com','lassi193')
+insert into account values(200012,231485773,112,101010,30000804,'rathishivani@gmail.com','rathi1421')
+insert into account values(200013,231485774,113,101010,30000806,'bhavyachand@yahoo.com','Mumbaiaaya131')
+insert into account values(200014,231485775,114,101010,30000808,'pratikpatil@gmail.com','nashikjan7492')
+insert into account values(200015,231485776,115,101010,30000810,'tanyajagyasi@yahoo.com','Samosa#143')

@@ -1,0 +1,4 @@
+---Insert Queries - Department Table
+
+insert into department values(1,101010,'Administration')
+insert into department values(2,101010,'Technical')

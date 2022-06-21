@@ -1,0 +1,13 @@
+---Insert Queries - Employee Table
+
+insert into employee values(390001,101010,1,'Tipendar Gada','Station Operator')
+insert into employee values(390002,101010,2,'Sundar Lal','Engineer')
+insert into employee values(390003,101010,2,'Jethalal Gada','Engineer')
+insert into employee values(390004,101010,2,'Hansraj Baldevraj','Wireman')
+insert into employee values(390005,101010,2,'Popatlal Bhatia','Wireman')
+insert into employee values(390006,101010,2,'Ramubhai Patel','Wireman')
+insert into employee values(390007,101010,2,'Champaklal Gada','Wireman')
+insert into employee values(390008,101010,1,'Roshan Singh','Meter Reader')
+insert into employee values(390009,101010,1,'Bagheshwar Undhaiwala','Meter Reader')
+insert into employee values(390010,101010,1,'Tarak Mehta','Meter Reader')
+insert into employee values(390011,101010,1,'Aatmaram Bhide','Meter Reader')
