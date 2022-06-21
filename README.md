@@ -1,4 +1,4 @@
-# Electricity-Bill-Management-System
+# Electricity-Billing-Database-Management-System
 *DBMS Project*
 ## Description:
 In this project, we have using database of a city to access the information of the electricity usage in different areas and the households in them.
